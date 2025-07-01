@@ -3,7 +3,7 @@ import React from "react";
 import AboutSection from "../../component/AboutSection";
 import TestimonialsSection from "../../component/Clients";
 import Footer from "../../component/footer";
-import Navbar from "../../component/header";
+import Navbar from "../../component/Header";
 import HeroSection from "../../component/HeroSection";
 import ProjectSection from "../../component/ProjectSection";
 import WhyChooseUs from "../../component/whyChooseus";
@@ -14,8 +14,8 @@ function LandingPage() {
     <>
       <Navbar />
       <HeroSection />
-      <Realtor/>
-      <WhyChooseUs/>
+      <Realtor />
+      <WhyChooseUs />
       <ProjectSection />
       <AboutSection />
       <TestimonialsSection />
